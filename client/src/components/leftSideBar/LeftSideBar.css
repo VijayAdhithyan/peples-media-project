@@ -1,0 +1,112 @@
+.left-side-bar {
+  border-right: 1px solid #d6d9dc;
+  height: 100vh;
+  position: fixed;
+  padding-right: 55px;
+}
+
+.nav-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+  margin-left: 110px;
+}
+
+.user-profile-detail{
+  width: 120px;
+  height: 120px;
+}
+
+.profile-btn{
+  cursor: pointer;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+.nav-title-1 {
+  font-size: 13px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 8px;
+  color: #3a3a3a;
+  padding-left: 10px;
+}
+
+.nav-title-1:hover {
+  color: balck;
+}
+
+.nav-title-2 {
+  font-size: 13px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-left: 10px;
+  color: #555;
+}
+
+.nav-sub-link-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.question-container {
+  display: flex;
+  column-gap: 5px;
+  margin-left: 128px;
+  margin-top: 15px;
+}
+
+.public-icon:hover {
+  color: #000000;
+  cursor: pointer;
+}
+
+.question-title {
+  color: #555;
+  font-size: 13px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.question-title:hover {
+  color: #000000;
+}
+
+.nav-sub-titles {
+  margin-top: 10px;
+  color: #555;
+  margin-left: 152px;
+  font-size: 13px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.nav-sub-titles:hover {
+  color: #000000;
+}
+
+.active {
+  font-weight: bolder;
+  color: black;
+  background-color: rgb(225, 225, 225);
+  border-right: solid 3px #ef8236;
+}
+
+@media screen and (max-width: 1300px) {
+  .nav-title-container {
+    margin-left: 0;
+    padding-left: 10px;
+  }
+
+  .question-container {
+    margin-left: 20px;
+  }
+
+  .nav-sub-titles {
+    margin-left: 45px;
+  }
+}

@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.login-session {
+  min-height: 100vh;
+  background-color: #f1f2f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.login-form {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 15px;
+  row-gap: 20px;
+  min-width: 280px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px #b1b1b1;
+}
+
+.login-label {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-input {
+  padding: 9px 10px;
+  margin: 0 10px;
+  border: solid 1px #b3b3b3;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-span {
+  color: #0a95ff;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 0 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-email-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.login-password-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.login-password-label-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 10px 0;
+  background-color: #0a95ff;
+  border: solid 1px rgb(0, 110, 255);
+  border-radius: 4px;
+  margin: 0 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btnd{
+  cursor: not-allowed;
+  padding: 10px 0;
+  background-color: #0a95ff;
+  border: solid 1px rgb(0, 110, 255);
+  border-radius: 4px;
+  margin: 0 10px;
+  color: #fff;
+}
+
+.login-text {
+  font-size: 13px;
+  word-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}

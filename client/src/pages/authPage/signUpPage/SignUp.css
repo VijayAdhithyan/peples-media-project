@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.signup-session {
+  min-height: 100vh;
+  background-color: #f1f2f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 60px;
+}
+
+.signup-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+.signup-right-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 35px;
+  margin-top: 70px;
+  /* background-color: aquamarine; */
+  /* max-width: 300px; */
+}
+
+.Signup-form {
+  background-color: #fff;
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #b1b1b1;
+}
+
+.signup-name-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.signup-email-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.signup-password-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.check-box-container {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 6px;
+  margin: 0 10px;
+}
+
+.check-box{
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.term-para{
+  color: #555;
+  font-size: 12px;
+  margin: 0 11px;
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+}
+
+.term-para span{
+  color: #0A95FF;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .signup-left-container{
+        display: none;
+    }
+}

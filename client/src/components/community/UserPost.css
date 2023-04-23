@@ -1,0 +1,12 @@
+.user-post-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-top-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+}

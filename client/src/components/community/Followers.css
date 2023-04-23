@@ -1,0 +1,54 @@
+.follower_wrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+
+.followers-container {
+  width: 80%;
+  margin-top: 30px;
+}
+
+.follower_info {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* justify-content: center; */
+}
+
+.follower_profile {
+  width: 35px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.follower_name {
+  font-size: 18px;
+  color: #111;
+}
+
+.follow_btn {
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .followers-container {
+    width: 100%;
+  }
+  .follower_wrapper {
+    width: 100%;
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .follower_wrapper {
+    gap: 40px;
+  }
+}

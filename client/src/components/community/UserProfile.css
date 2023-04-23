@@ -1,0 +1,73 @@
+.user-profile-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  gap: 20px;
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.user-name {
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.user-profile-img {
+  width: 100px;
+  height: 100px;
+}
+
+.user-profile-info {
+  display: flex;
+  column-gap: 15px;
+}
+
+.user-profile-frnds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  cursor: pointer;
+}
+
+.user-follow-btn {
+  padding: 6px 10px;
+  border: none;
+  background-color: #0095df;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.user-unfollow-btn {
+  padding: 6px 10px;
+  border: none;
+  background-color: #ebebeb;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+@media screen and (max-width: 1300px) {
+  .user-profile-wrapper {
+    width: 100%;
+  }
+}

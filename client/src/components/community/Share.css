@@ -1,0 +1,150 @@
+.share-post {
+  width: 100%;
+  /* margin-left: 40px; */
+}
+
+.share-post-wrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.share-top {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.share-profile {
+  background-color: rgb(0, 132, 227);
+  padding: 7px 15px;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 50%;
+}
+
+.share-desc {
+  padding: 10px 5px;
+  border: none;
+  font-size: 17px;
+  width: 100%;
+}
+
+.share-desc:focus {
+  outline: none;
+}
+
+.share-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.share-folder {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  cursor: pointer;
+}
+
+.share-btn {
+  opacity: 0.8;
+}
+
+.share-button {
+  background-color: rgb(0, 127, 206);
+  border: none;
+  font-size: 14px;
+  padding: 7px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.share-button-disable {
+  background-color: rgb(0, 127, 206);
+  border: none;
+  font-size: 14px;
+  padding: 7px 27px;
+  border-radius: 5px;
+  cursor: not-allowed;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.shareImgContainer {
+  padding: 0 20px 10px 20px;
+  position: relative;
+}
+
+.shareImg {
+  width: 95%;
+  height: 480px;
+  object-fit: cover;
+}
+
+.shareCancelImg {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1300px) {
+  .share-post {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .share-desc {
+    /* padding: 1px 5px; */
+    border: none;
+    font-size: 15px;
+  }
+  .share-btn {
+    font-size: 15px;
+  }
+  .share-button {
+    font-size: 12px;
+    padding: 5px 12px;
+  }
+  .share-button-disable {
+    font-size: 14px;
+    padding: 4px 24px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .share-btn {
+    font-size: 12.5px;
+  }
+  .share-button {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+  .share-button-disable {
+    font-size: 14px;
+    padding: 3px 20px;
+  }
+  .shareImgContainer {
+    padding: 0 20px 10px 20px;
+    position: relative;
+  }
+
+  .shareImg {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .shareCancelImg {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+}
